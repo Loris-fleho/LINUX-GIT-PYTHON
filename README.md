@@ -1,5 +1,5 @@
 # LINUX-GIT-PYTHON
-## TD1
+## TD1 : Use basic Linux commands
 ### Exercise 1 : Move Around
 #### Q1
 cd /
