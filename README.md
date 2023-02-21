@@ -28,11 +28,11 @@ pwd
 
 ### Exercise 2 : Create, Rename, copy, delete
 #### Q1
-cd ~
+cd 
 #### Q2
-pwd
-#### Q3
 mkdir linux_ex_1
+#### Q3
+pwd
 #### Q4
 cd linux_ex_1
 #### Q5
@@ -115,3 +115,63 @@ chmod a+rw .private_file
 
 #### Exercise 4.4 :  Manage Packages (tools / functions)
 ##### Q1
+sudo apt update
+##### Q2
+sudo apt upgrade
+##### Q3
+sudo apt install cmatrix
+##### Q4
+cmatrix
+##### Q5
+q
+##### Q6
+sudo apt install tmux
+##### Q7
+tmux
+##### Q8
+echo "Hello session 0"
+##### Q9
+cmatrix
+##### Q10
+ctrl+b d
+##### Q11
+tmux new
+##### Q12
+echo "Hello session 1"
+##### Q13
+ctlr+b d
+##### Q14
+tmux list-sessions
+##### Q15
+tmux attach -t 0
+##### Q16
+ctlr+b d
+##### Q17
+tmux attach -t 1
+##### Q18
+ctlr+b d
+##### Q19
+tmux list-sessions
+##### Q20
+tmux kill-server
+##### Q21
+tmux list-sessions
+
+#### Exercise 4.3 : Use functions arguments / parameters
+##### Q1
+cmatrix --help
+##### Q2
+cmatrix -C red
+q
+##### Q3
+cmatrix -u 20
+##### Q4
+q
+##### Q5
+cmatrix -C blue -u 30
+##### Q6
+man cmatrix
+##### Q7
+tmux --help
+##### Q8
+man tmux
