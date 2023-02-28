@@ -4,27 +4,27 @@
 #### Q1
 sudo apt update
 sudo apt upgrade
-#### Q2
-##### Display the Linux version
+#### Q2 : Display
+##### Linux version
 cat /etc/os-release
 lsb_release -a
 hostnamectl
-##### Show current processes, memory and network use
+##### Current processes and memory usage associated
 top
-##### More human readable
+##### Display it in a more pleasant way ("more readable for humans")
 htop
-##### Display number of processors
+##### Number of processors
 lscpu
 ##### L1, L2 and L3 cache size
 lscpu | grep cache
-##### the disk space
+##### Disk space
 df -H /dev/root
 lsblk -e 7,11
-##### the mounted devices
+##### Monted devices
 cat /proc/mounts
-##### Connected usb device
+##### Connected usb devices
 lsusb
-##### Hostanme
+##### Hostname
 hostname
 ### Exercise 2 : Shell - Variables and scripts scope
 #### Q1
