@@ -157,7 +157,7 @@ tmux kill-server
 ##### Q21
 tmux list-sessions
 
-#### Exercise 4.3 : Use functions arguments / parameters
+#### Exercise 4.5 : Use functions arguments / parameters
 ##### Q1
 cmatrix --help
 ##### Q2
