@@ -1,5 +1,5 @@
 # LINUX-GIT-PYTHON
-## TD1 : Fundamental Linux functionalities
+## TD2 : Fundamental Linux functionalities
 ### Exercise 1 : Access general computer informations
 #### Q1
 sudo apt update
